@@ -28,6 +28,15 @@
     background-color: rgba(255, 144, 14, 0.1);
 }
 
+.btn-1 {
+    background-color: #FF900E;
+    color: white;
+    padding: 14px 40px;
+    border: none;
+    border-radius: 8px;
+
+}
+
 
 
 /* shared styles */
@@ -58,7 +67,7 @@
 
 /* brand logo/name */
 .brand-name {
-    font-size: 28px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
@@ -67,4 +76,65 @@
     max-width: 1440px;
     max-height: auto;
     margin: 0 auto;
+}
+
+
+/* Hero section styling */
+.hero-banner {
+    max-width: 1440px;
+    max-height: auto;
+    margin: 0 auto;
+}
+
+.hero-content {
+    width: 850px;
+    height: 225px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    font-weight: 700; 
+    color: #131313;
+}
+
+.hero-description {
+    color: #424242;
+    margin-bottom: 30px; 
+    margin-top: -20px;  
+}
+
+.hero-image {
+    width: 100%;
+    margin-top: 130px;
+}
+
+/* .main-header {
+    padding-bottom: 500px;
+} */
+
+header {
+    padding-bottom: 50px;
+}
+
+/* Header Responsive */
+@media screen and (max-width: 576px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        width: 100%;
+    }
+
+    .hero-title {
+    font-size: 2.5rem;
+    }
+
+    .hero-image {
+    width: 100%;
+    margin-top: 50px;
+    }
 }
