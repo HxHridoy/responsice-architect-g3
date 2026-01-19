@@ -6,3 +6,65 @@
   font-optical-sizing: auto;
 }
 
+
+
+/* colors */
+.primary-color {
+    color: #FF900E;
+}
+
+/* Black */
+.secondary-color {
+    color: #131313;
+}
+
+/* grey color */
+.text-grey {
+    color: #424242;
+}
+
+/* Background color */
+.bg-color {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+
+
+/* shared styles */
+.display-flex {
+    display: flex;
+}
+
+/* menu styling */
+.menu-items {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-item {
+    
+}
+
+/* brand logo/name */
+.brand-name {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.section-width {
+    max-width: 1440px;
+    max-height: auto;
+    margin: 0 auto;
+}
