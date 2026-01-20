@@ -266,12 +266,28 @@ header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     margin-top: 50px;
+    justify-items: center;
     /* gap: 20px; */
 }
 
 .sponsors-images img {
     filter: grayscale(100%);
 }
+
+
+/* Footer */
+.for-margin {
+    margin-top: 60px;
+}
+
+.footer {
+    max-width: 1440px;
+    max-height: 100px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+
 
 
 /* Header Responsive */
